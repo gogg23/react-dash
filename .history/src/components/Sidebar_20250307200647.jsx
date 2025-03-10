@@ -12,7 +12,7 @@ const Sidebar = () => {
   return (
     <div className='menu'>
       <div className='logo'>
-        <BiBookAlt className='logo-icon' />
+        <BiBookAlt />
         <h2>EduFlex</h2>
       </div>
 
