@@ -29,8 +29,3 @@
   transition: 0.3s ease-in-out;
   color: 27374d;
 }
-
-.menu--items .item:hover {
-  background-color: #27374d;
-  color: #dde6ed;
-}

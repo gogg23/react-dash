@@ -7,7 +7,6 @@ import {
   BiSolidReport,
   BiStats,
   BiHelpCircle,
-  BiTaskX,
 } from 'react-icons/bi';
 import '../styles/Sidebar.css';
 const Sidebar = () => {
@@ -23,10 +22,7 @@ const Sidebar = () => {
           <BiHome />
           Dashboard
         </a>
-        <a href='' className='item'>
-          <BiTask />
-          Task
-        </a>
+        <a href='' className='item'></a>
         <a href='' className='item'>
           <BiSolidReport />
           Report

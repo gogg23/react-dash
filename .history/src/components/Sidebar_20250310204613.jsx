@@ -2,12 +2,11 @@ import React from 'react';
 import {
   BiHome,
   BiBookAlt,
-  BiTask,
+BiTask
   BiMessage,
   BiSolidReport,
   BiStats,
   BiHelpCircle,
-  BiTaskX,
 } from 'react-icons/bi';
 import '../styles/Sidebar.css';
 const Sidebar = () => {
@@ -24,8 +23,6 @@ const Sidebar = () => {
           Dashboard
         </a>
         <a href='' className='item'>
-          <BiTask />
-          Task
         </a>
         <a href='' className='item'>
           <BiSolidReport />
