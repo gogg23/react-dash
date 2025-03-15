@@ -1,0 +1,7 @@
+.dashboard {
+  display: grid;
+  gap: 20rem;
+}
+
+.dashboard--content {
+}
