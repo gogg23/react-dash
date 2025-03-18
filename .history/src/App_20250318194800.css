@@ -1,11 +1,10 @@
 .dashboard {
-  display: flex;
-  gap: 20px;
+  display: grid;
+  gap: 2rem;
 }
 
 .dashboard--content {
   background: #fff;
-  flex: 1;
   border-radius: 20px;
   padding: 2rem;
   display: flex;
