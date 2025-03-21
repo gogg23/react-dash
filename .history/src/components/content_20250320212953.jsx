@@ -1,6 +1,6 @@
 import React from 'react';
 import ContentHeader from './ContentHeader';
-import '../styles/content.css';
+import '..styles/content.css';
 
 const content = () => {
   return (
