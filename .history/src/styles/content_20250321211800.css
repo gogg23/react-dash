@@ -40,13 +40,3 @@
   cursor: pointer;
   transition: 0.5s ease-in-out;
 }
-
-.notify {
-  background: #dde6dd;
-  padding: 12px;
-  border-radius: 10px;
-  color: #969393;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
