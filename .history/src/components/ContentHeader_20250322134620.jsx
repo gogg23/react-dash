@@ -15,6 +15,8 @@ const ContentHeader = () => {
         <div className='notify'>
           <BiNotification className='icon' />
         </div>
+
+        <div className='header--profile'>Profile</div>
       </div>
     </div>
   );

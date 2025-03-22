@@ -1,27 +1,16 @@
-.content {
-  width: 100%;
-  padding: 20px;
-}
-
 .content--header {
   display: flex;
   align-items: center;
-  gap: auto;
+  justify-content: space-between; /* Ensures left and right separation */
   width: 100%;
-  flex: 1;
-}
-
-.header--title {
-  color: #526d82;
-  margin-right: auto;
-  flex: shrink;
+  padding: 10px 20px;
 }
 
 .header--activity {
   display: flex;
   align-items: center;
   gap: 15px;
-  min-width: fit-content;
+  margin-left: auto; /* Pushes it to the extreme right */
 }
 
 .header-searchbox {
@@ -45,7 +34,7 @@
   color: #969393;
   font-size: 20px;
   cursor: pointer;
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .notify {
@@ -55,13 +44,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.5s ease-in-out;
 }
 
 .notify .icon {
-  font-size: 20px;
+  font-size: 22px;
   color: #526d82;
-  transition: 0.3s ease-in-out;
 }
 
 .icon:hover {

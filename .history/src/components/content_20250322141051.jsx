@@ -6,6 +6,7 @@ const Content = () => {
   return (
     <div className='content'>
       <ContentHeader />
+      <div className='content-body'></div>
     </div>
   );
 };

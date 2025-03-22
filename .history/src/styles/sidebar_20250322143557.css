@@ -1,8 +1,11 @@
+/* Sidebar container */
 .sidebar {
-  background-color: #dde6ed; /* Adjust to match your desired grey */
-  width: 250px; /* Ensure proper width */
+  background-color: #808080; /* Grey background */
   height: 100vh; /* Full height */
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Adjusts spacing */
 }
 
 /* Menu container */
@@ -43,6 +46,6 @@
 
 /* Menu item hover effect */
 .menu--items .item:hover {
-  background-color: #27374d;
-  color: #dde6ed;
+  background-color: turquoise;
+  color: #808080;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BiSearch, BiNotification } from 'react-icons/bi';
+import { BiSearch, BiBell } from 'react-icons/bi';
 
 const ContentHeader = () => {
   return (
@@ -13,9 +13,11 @@ const ContentHeader = () => {
         </div>
 
         <div className='notify'>
-          <BiNotification className='icon' />
+          <BiBell className='icon' />
         </div>
       </div>
+
+      <div className='header--profile'>Profile</div>
     </div>
   );
 };

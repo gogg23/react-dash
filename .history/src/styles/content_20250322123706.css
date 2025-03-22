@@ -1,20 +1,20 @@
-.content {
-  width: 100%;
-  padding: 20px;
-}
-
 .content--header {
   display: flex;
   align-items: center;
-  gap: auto;
+  justify-content: space-between; /* Ensures title is on the left, activity on the right */
   width: 100%;
-  flex: 1;
 }
 
 .header--title {
   color: #526d82;
   margin-right: auto;
-  flex: shrink;
+  flex-shrink: 0; /* Prevents shrinking */
+}
+
+.header--activity {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 .header--activity {
@@ -45,7 +45,7 @@
   color: #969393;
   font-size: 20px;
   cursor: pointer;
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .notify {
@@ -55,13 +55,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.5s ease-in-out;
 }
 
 .notify .icon {
-  font-size: 20px;
+  font-size: 22px;
   color: #526d82;
-  transition: 0.3s ease-in-out;
 }
 
 .icon:hover {

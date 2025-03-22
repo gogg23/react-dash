@@ -1,8 +1,11 @@
+/* Sidebar container */
 .sidebar {
-  background-color: #dde6ed; /* Adjust to match your desired grey */
-  width: 250px; /* Ensure proper width */
+  background-color: #e3eaf3; /* Light blue-grey */
   height: 100vh; /* Full height */
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* Menu container */
