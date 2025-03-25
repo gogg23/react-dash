@@ -80,14 +80,14 @@
 .card {
   flex: 1;
   background: #dde6ed;
-  padding: 15px;
+  padding: 20px;
   border-radius: 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
   transition: 0.5s ease-in-out;
-  min-height: 240px;
+  min-height: 210px;
 }
 
 .card:hover {
@@ -104,14 +104,4 @@
   padding: 20px;
   border-radius: 20px;
   color: #969393;
-}
-
-.card--title {
-  background: #ffffff;
-  width: 100%;
-  text-align: center;
-  padding: 2px 0;
-  font-size: 12px;
-  color: #526d82;
-  border-radius: 10px;
 }

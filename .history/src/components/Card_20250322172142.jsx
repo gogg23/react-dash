@@ -1,7 +1,7 @@
 import React from 'react';
 import { BiBuilding, BiLogoAndroid, BiLogoHtml5 } from 'react-icons/bi';
 
-const courses = [
+const course = [
   {
     title: 'Web Development',
     icon: <BiLogoHtml5 />,
@@ -20,7 +20,7 @@ const courses = [
 
 const Card = () => {
   return (
-    <div className='card--container'>
+    <div className='card-container'>
       {courses.map((item) => (
         <div className='card'>
           <div className='card--cover'>{item.icon}</div>

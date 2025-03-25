@@ -20,7 +20,7 @@ const courses = [
 
 const Card = () => {
   return (
-    <div className='card--container'>
+    <div className='card-container'>
       {courses.map((item) => (
         <div className='card'>
           <div className='card--cover'>{item.icon}</div>
