@@ -29,20 +29,9 @@
   transition: 0.3s ease-in-out;
 }
 
-.teacher--detail {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  color: #526d82;
-}
-
 .teacher--detail img {
-  width: 150px;
-  background: #dde6ed;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
   border-radius: 50%;
-}
-
-.list:hover {
-  background: #dde6ed;
-  border-radius: 10px;
 }

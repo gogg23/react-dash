@@ -37,12 +37,8 @@
 }
 
 .teacher--detail img {
-  width: 150px;
-  background: #dde6ed;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
   border-radius: 50%;
-}
-
-.list:hover {
-  background: #dde6ed;
-  border-radius: 10px;
 }
