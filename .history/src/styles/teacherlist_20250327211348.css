@@ -28,10 +28,3 @@
   justify-content: space-between;
   transition: 0.3s ease-in-out;
 }
-
-.teacher--detail img {
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 50%;
-}

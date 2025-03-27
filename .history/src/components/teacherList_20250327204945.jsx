@@ -30,7 +30,7 @@ const TeacherList = () => {
             </div>
             <span>{teacher.duration}</span>
             <span>{teacher.cost}</span>
-            <span className='to--do'></span>
+            <span className='to-do'></span>
           </div>
         ))}
       </div>
