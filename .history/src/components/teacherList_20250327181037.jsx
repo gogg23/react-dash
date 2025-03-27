@@ -19,20 +19,8 @@ const TeacherList = () => {
         <select>
           <option value='english'>English</option>
           <option value='hindi'>Hindi</option>
+          <option value='english'>English</option>q
         </select>
-      </div>
-      <div className='list'>
-        {teachers.map((teacher, index) => (
-          <div className='list' key={index}>
-            <div className='teacher--detail'>
-              <img src={teacher.image} alt={teacher.name} />
-              <h2>{teacher.name}</h2>
-            </div>
-            <span>{teacher.duration}</span>
-            <span>{teacher.cost}</span>
-            <span className='to-do'></span>
-          </div>
-        ))}
       </div>
     </div>
   );
