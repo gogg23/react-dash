@@ -50,7 +50,7 @@ const TeacherList = () => {
               <h2>{teacher.name}</h2>
             </div>
             <span>{teacher.duration}</span>
-            <span>${teacher.cost}/hr.</span>
+            <span>{teacher.cost}</span>
             <span className='to--do'></span>
           </div>
         ))}
