@@ -42,8 +42,7 @@
 }
 
 /* Menu item hover effect */
-.menu--list .item:hover,
-.active {
+.menu--list .item:hover {
   background-color: #27374d;
-  color: #dde6ed !important;
+  color: #dde6ed;
 }

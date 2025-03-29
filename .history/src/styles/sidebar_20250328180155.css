@@ -45,5 +45,5 @@
 .menu--list .item:hover,
 .active {
   background-color: #27374d;
-  color: #dde6ed !important;
+  color: #dde6ed;
 }
