@@ -1,6 +1,5 @@
 import React from 'react';
 import { BiEdit } from 'react-icons/bi';
-import ProfileHeader from './ProfileHeader';
 import '../styles/profileHeader.css';
 import Image1 from '../assets/images/Image1.jpg';
 

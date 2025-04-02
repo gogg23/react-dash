@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/ProfileHeader.css';
 
 const profileHeader = () => {
   return (
