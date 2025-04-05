@@ -8,17 +8,7 @@ import { BiBook } from 'react-icons/bi';
 
 const courses = [
   {
-    title: 'HTML & CSS',
-    duration: '2 hours',
-    icon: <BiBook />,
-  },
-  {
-    title: 'Java',
-    duration: '2 hours',
-    icon: <BiBook />,
-  },
-  {
-    title: 'React.js',
+    title: 'English',
     duration: '2 hours',
     icon: <BiBook />,
   },
@@ -44,19 +34,7 @@ const Profile = () => {
         <h2 className='user--name'>Jane Doe</h2>
         <span className='profession'>Teacher</span>
       </div>
-      <div className='user-courses'>
-        {courses.map((courses) => (
-          <div className='course'>
-            <div className='course--details'>
-              <div className='course--cover'>{courses.icon}</div>
-              <div className='course-name'>
-                <h5 className='title'>{courses.title}</h5>
-                <span className='duration'>{courses.duration}</span>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
+      <div className='user-courses'></div>
     </div>
   );
 };
