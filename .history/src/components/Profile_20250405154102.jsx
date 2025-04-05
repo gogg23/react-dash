@@ -9,18 +9,7 @@ const Profile = () => {
     <div className='profile'>
       <ProfileHeader />
       <div className='user--detail'>
-        <img
-          src={Image1}
-          alt='Profile'
-          style={{
-            width: '400px',
-            height: '400px',
-            borderRadius: '50%',
-            border: '2px solid #fff',
-            objectFit: 'cover',
-          }}
-        />
-
+        <img src={Image1} alt='Profile' />
         <h2 className='user--name'>John Doe</h2>
         <span className='profession'>Teacher</span>
       </div>

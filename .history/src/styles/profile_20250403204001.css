@@ -31,9 +31,15 @@
 
 .user--detail {
   width: 100%;
-  height: 180px;
+  height: 250px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+}
+.user--detail img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%; /* Optional: for a circular image */
 }

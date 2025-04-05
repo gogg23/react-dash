@@ -13,10 +13,9 @@ const Profile = () => {
           src={Image1}
           alt='Profile'
           style={{
-            width: '400px',
-            height: '400px',
-            borderRadius: '50%',
-            border: '2px solid #fff',
+            width: '300px',
+            height: '300px',
+
             objectFit: 'cover',
           }}
         />

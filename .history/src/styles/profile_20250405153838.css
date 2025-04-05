@@ -37,3 +37,12 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.user--detail img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  border: 2px solid red; /* For testing */
+}
