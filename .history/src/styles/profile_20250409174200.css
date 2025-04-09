@@ -40,13 +40,6 @@
   justify-content: center;
 }
 
-.user--detail img {
-  background: #fff;
-  border-radius: 50;
-  width: 150px;
-  margin-bottom: 10px;
-}
-
 .user--profile .username {
   background: fff;
   flex: 1;

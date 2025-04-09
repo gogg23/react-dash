@@ -1,7 +1,7 @@
 import React from 'react';
 import { BiEdit, BiBook } from 'react-icons/bi';
 import ProfileHeader from './ProfileHeader';
-import '../styles/Profile.css';
+import '../styles/profileHeader.css';
 import Image1 from '../assets/images/Image1.jpg';
 
 const courses = [
@@ -27,12 +27,15 @@ const Profile = () => {
     <div className='profile'>
       <ProfileHeader />
       <div className='user--detail'>
+        <h2 className='profile--header'>
+          Profile <BiEdit />
+        </h2>
         <img
           src={Image1}
           alt='Profile'
           style={{
-            width: '400px',
-            height: '400px',
+            width: '180px', // ↓ changed from 400px
+            height: '180px', // ↓ changed from 400px
             borderRadius: '50%',
             border: '2px solid #fff',
             objectFit: 'cover',
@@ -41,10 +44,7 @@ const Profile = () => {
         <h2 className='user--name'>Jane Doe</h2>
         <span className='profession'>Teacher</span>
       </div>
-
-      <div className='user--courses'>
-        {' '}
-        {/* ✅ FIXED class name */}
+      <div className='user-courses'>
         {courses.map((course, index) => (
           <div className='course' key={index}>
             <div className='course-detail'>

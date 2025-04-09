@@ -1,7 +1,7 @@
 import React from 'react';
 import { BiEdit, BiBook } from 'react-icons/bi';
 import ProfileHeader from './ProfileHeader';
-import '../styles/Profile.css';
+import '../styles/Profile.css'; // ✅ FIXED: this must match your actual file name
 import Image1 from '../assets/images/Image1.jpg';
 
 const courses = [

@@ -1,7 +1,7 @@
 import React from 'react';
 import { BiEdit, BiBook } from 'react-icons/bi';
 import ProfileHeader from './ProfileHeader';
-import '../styles/Profile.css';
+import '../styles/profileHeader.css';
 import Image1 from '../assets/images/Image1.jpg';
 
 const courses = [
@@ -38,13 +38,11 @@ const Profile = () => {
             objectFit: 'cover',
           }}
         />
+
         <h2 className='user--name'>Jane Doe</h2>
         <span className='profession'>Teacher</span>
       </div>
-
       <div className='user--courses'>
-        {' '}
-        {/* ✅ FIXED class name */}
         {courses.map((course, index) => (
           <div className='course' key={index}>
             <div className='course-detail'>

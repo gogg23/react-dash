@@ -1,8 +1,10 @@
 import React from 'react';
-import { BiEdit, BiBook } from 'react-icons/bi';
+import { BiEdit } from 'react-icons/bi';
 import ProfileHeader from './ProfileHeader';
-import '../styles/Profile.css';
+import '../styles/profileHeader.css';
 import Image1 from '../assets/images/Image1.jpg';
+import { IconBase } from 'react-icons/lib';
+import { BiBook } from 'react-icons/bi';
 
 const courses = [
   {
@@ -38,20 +40,18 @@ const Profile = () => {
             objectFit: 'cover',
           }}
         />
+
         <h2 className='user--name'>Jane Doe</h2>
         <span className='profession'>Teacher</span>
       </div>
-
-      <div className='user--courses'>
-        {' '}
-        {/* ✅ FIXED class name */}
+      <div className='user-courses'>
         {courses.map((course, index) => (
-          <div className='course' key={index}>
-            <div className='course-detail'>
-              <div className='course-cover'>{course.icon}</div>
+          <div className='course'>
+            <div className='course--details'>
+              <div className='course--cover'>{courses.icon}</div>
               <div className='course-name'>
-                <h5 className='title'>{course.title}</h5>
-                <span className='duration'>{course.duration}</span>
+                <h5 className='title'>{courses.title}</h5>
+                <span className='duration'>{courses.duration}</span>
               </div>
             </div>
             <div className='action'></div>

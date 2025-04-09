@@ -31,8 +31,8 @@ const Profile = () => {
           src={Image1}
           alt='Profile'
           style={{
-            width: '400px',
-            height: '400px',
+            width: '100px',
+            height: '100px',
             borderRadius: '50%',
             border: '2px solid #fff',
             objectFit: 'cover',
